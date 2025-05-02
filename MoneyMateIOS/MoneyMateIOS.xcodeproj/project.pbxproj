@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D359506C2DC4B33600525567 /* MoneyMateIOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoneyMateIOS;
-			sourceTree = "<group>";
-		};
 		D359507A2DC4B33700525567 /* MoneyMateIOSTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MoneyMateIOSTests;
@@ -43,6 +38,11 @@
 		D35950842DC4B33700525567 /* MoneyMateIOSUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MoneyMateIOSUITests;
+			sourceTree = "<group>";
+		};
+		D35950A72DC53CE500525567 /* MoneyMateIOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoneyMateIOS;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		D35950612DC4B33600525567 = {
 			isa = PBXGroup;
 			children = (
-				D359506C2DC4B33600525567 /* MoneyMateIOS */,
+				D35950A72DC53CE500525567 /* MoneyMateIOS */,
 				D359507A2DC4B33700525567 /* MoneyMateIOSTests */,
 				D35950842DC4B33700525567 /* MoneyMateIOSUITests */,
 				D359506B2DC4B33600525567 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D359506C2DC4B33600525567 /* MoneyMateIOS */,
+				D35950A72DC53CE500525567 /* MoneyMateIOS */,
 			);
 			name = MoneyMateIOS;
 			packageProductDependencies = (
